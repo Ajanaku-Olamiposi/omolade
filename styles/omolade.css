@@ -24,3 +24,12 @@ footer p{
   text-align: center;
   color: white;
 }
+/* header{
+  display: grid;
+  grid-template-columns: 1fr 9fr;
+} */
+header{
+  display: flex;
+flex-direction: row;
+gap: 40px;
+}

@@ -3,15 +3,24 @@ section {
   grid-template-columns: repeat(3, 1fr); /* 4 items per row */
   gap: 20px;
   padding: 20px;
+}
+body{
   background-color: royalblue;
 }
-
 section div {
   color:gold;
   height: 100px;
   border-radius: 8px;
-  border: 2px solid gold;
+  border: 3px solid rgb(252, 244, 244);
   text-align: center;
   align-content: center;
   font-size: xx-small;
+}
+h1,h2{
+  text-align: center;
+  color: gold;
+}
+footer p{
+  text-align: center;
+  color: white;
 }
